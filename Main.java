@@ -24,6 +24,21 @@ public class Main {
       seatingChart[1][3] = "Alex";
       seatingChart[0][3] = "Maia";
 
+      // INITIALIZER LIST
+      // alternate way to initialize array
+      // (when you know what values go where)
+      // INNER curly brackets hold each row
+      int[][] minefield = {{7,-20,0},{0,50,-15},{-10,12,20}};
+
+      // ACCESS a value with the double index operator
+      // array[row][col]
+      System.out.println("You earned " + minefield[2][0] + " points");
+      System.out.println("You earned " + minefield[1][1] + " points");
+      // Can also store value in a new variable
+      int worstSpot = minefield[0][1];
+
+
+
 
 
 
