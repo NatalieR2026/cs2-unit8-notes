@@ -65,7 +65,25 @@ public class Main {
          }
          System.out.println();
       }
-
+      System.out.println();
+      // ASCII ART (use in your games for fun!)
+      // https://www.asciart.eu/
+      // CHARs (characters) use 'single quotes'
+      char[][] asciiArt = {
+         {'_','_','_',' ',' ',' ',' ','A',' ',' ',' ',' '},
+         {'|',' ','|',' ',' ',' ','{','*','}',' ',' ',' '},
+         {'|',' ','|',' ',' ','_','_','V','_','_',' ',' '},
+         {'|','_','|','o','_','|','%','%','%','|','0','_'},
+         {' ',' ',' ','|',' ',' ',' ',' ',' ',' ',' ','|'},
+         {' ',' ',' ','|',' ',' ',' ',' ',' ',' ',' ','|'},
+         {' ',' ',' ','|','_','_','_','_','_','_','_','|'}
+      };
+      for (char[] row : asciiArt) {
+         for (char col : row) {
+            System.out.print(col);
+         }
+         System.out.println();
+      }
 
 
 
